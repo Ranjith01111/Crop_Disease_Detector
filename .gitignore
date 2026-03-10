@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Large dataset images (too big for GitHub)
+*.JPG
+*.jpg
+*.jpeg
+*.png
+*.PNG
+
+# PlantVillage dataset folder (too large for GitHub)
+PlantVillage/
+
+# Trained model weights (too big for GitHub - use Git LFS or cloud storage)
+*.h5
+*.pkl
+*.pt
+*.pth
+
+# Virtual environments
+venv/
+env/
+.env/
